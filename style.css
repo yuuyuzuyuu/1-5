@@ -5,15 +5,17 @@
 }
 
 header {
-  padding: 20px;
-  margin: 0 auto;
+  width: 100%;
+  padding: 20px 0;
   text-align: center;
 }
 
 .nav-list {
   text-align: center;
-  padding: 15px;
+  padding: 15px 0;
   margin: 0 auto;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
 }
 
 .nav-list-item {
@@ -22,13 +24,10 @@ header {
 }
 
 .main {
-  width: 900px;
-  height: 700px;
+  width: 800px;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 50px;
+  margin: 50px auto;
 }
 
 .box1 {
